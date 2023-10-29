@@ -8,4 +8,6 @@
 
 .navbarButton {
     background-color: rgb(109, 65, 252);
+    color: white;
+    border: none;
 }
