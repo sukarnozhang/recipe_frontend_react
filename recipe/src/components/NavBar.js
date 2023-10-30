@@ -6,9 +6,9 @@ function NavBar() {
   return (
     <>
       <div className="navbar">
-        <button className="navbarButton">Home</button>
-        <button className="navbarButton">Recipe</button>
-        <button className="navbarButton">Shopping Cart</button>
+        <Link to="/"> Home </Link>
+        <Link to="/recipe"> Recipe </Link>
+        <Link to="/cart"> Shopping Cart </Link>
       </div>
     </>
   );
